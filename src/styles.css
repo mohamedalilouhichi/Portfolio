@@ -1,0 +1,42 @@
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+.popup-content {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.view-link {
+  display: inline-block;
+  font-size: 16px;
+  color: #bdbebe;
+  text-decoration: none;
+  position: absolute;   /* Set absolute positioning */
+  bottom: 40px;         /* Adjust as necessary to move it from the bottom */
+  right: 10px;          /* Adjust as necessary to move it from the right */
+}
+
+.view-link:hover {
+  text-decoration: underline;
+}
+
+
+.popup-close:hover,
+.popup-close:focus {
+  color: #8d8d8d;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* You can add global styles to this file, and also import other style files */
